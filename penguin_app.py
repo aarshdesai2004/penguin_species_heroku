@@ -95,4 +95,4 @@ if st.sidebar.button("Predict"):
     score = rf_clf.score(X_train, y_train)
   
   st.write("Species predicted:", species_type)
-  st.write("Accuracy score of this model is:", score)    
+  st.write("Accuracy score of this model is:", round(score,2))    
